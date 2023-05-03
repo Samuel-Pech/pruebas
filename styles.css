@@ -1,0 +1,12 @@
+/* Estilos para el encabezado */
+h1 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  /* Estilos para el cuerpo */
+  body {
+    background-color: lightgray;
+  }
+  
