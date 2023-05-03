@@ -1,12 +1,38 @@
-/* Estilos para el encabezado */
+/* Estilos para el título de la página */
 h1 {
-    color: blue;
-    font-size: 36px;
+    color: #007bff;
+    font-size: 48px;
     text-align: center;
+    margin-top: 50px;
   }
   
-  /* Estilos para el cuerpo */
+  /* Estilos para el carrusel de imágenes */
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    background-color: #007bff;
+    width: auto;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: white;
+  }
+  
+  .carousel-indicators button {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .carousel-indicators .active {
+    background-color: white;
+    border-color: #007bff;
+  }
+  
+  /* Estilos para el cuerpo de la página */
   body {
-    background-color: lightgray;
+    padding: 50px;
   }
   
